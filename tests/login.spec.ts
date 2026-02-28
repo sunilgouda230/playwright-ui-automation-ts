@@ -7,6 +7,8 @@ test.describe('Login Workflow', () => {
     const loginPage = new LoginPage(appPage);
 
     await loginPage.navigate();
+    console.log('VALID_USERNAME:', process.env.VALID_USERNAME);
+console.log('VALID_PASSWORD exists:', !!process.env.VALID_PASSWORD);
     await loginPage.login(
       process.env.VALID_USERNAME!,
       process.env.VALID_PASSWORD!
