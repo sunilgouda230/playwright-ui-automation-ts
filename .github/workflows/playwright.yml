@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      ENV: ${{ secrets.ENV }}
-      BASE_URL: ${{ secrets.BASE_URL }}
+      ENV: qa
+      BASE_URL: https://the-internet.herokuapp.com
       VALID_USERNAME: ${{ secrets.VALID_USERNAME }}
       VALID_PASSWORD: ${{ secrets.VALID_PASSWORD }}
       INVALID_USERNAME: ${{ secrets.INVALID_USERNAME }}
