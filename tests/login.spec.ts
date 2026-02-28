@@ -12,10 +12,6 @@ test.describe('Login Workflow', () => {
       process.env.VALID_PASSWORD!
     );
 
-    // await appPage.locator('.flash.success').waitFor();
-
-    await appPage.waitForTimeout(5000);
-
     await expect(appPage.locator('h2')).toHaveText('Secure Area');
     await expect(appPage.locator('.flash.success')).toBeVisible();
   });

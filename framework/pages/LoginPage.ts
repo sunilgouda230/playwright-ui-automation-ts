@@ -25,10 +25,9 @@ async login(username: string, password: string) {
 
   await this.loginButton.click();
 
-  // Wait for either success or error message
   await Promise.race([
-    this.page.locator('.flash.success').waitFor(),
-    this.page.locator('.flash.error').waitFor(),
+    this.page.locator('.flash.success').waitFor({ state: 'visible' }),
+    this.page.locator('.flash.error').waitFor({ state: 'visible' }),
   ]);
 }
 
