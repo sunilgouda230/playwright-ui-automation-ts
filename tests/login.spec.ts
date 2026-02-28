@@ -3,7 +3,7 @@ import { LoginPage } from '../framework/pages/LoginPage';
 
 test.describe('Login Workflow', () => {
 
-  test('Login with valid credentials should navigate to secure area', async ({ appPage }) => {
+  test('Login with valid credentials should navigate to secure area test', async ({ appPage }) => {
     const loginPage = new LoginPage(appPage);
 
     await loginPage.navigate();  
