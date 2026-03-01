@@ -1,10 +1,3 @@
-Sure — here’s a **clean, more professional, and recruiter-friendly restructure** of your README section.
-I’ve tightened the language, improved flow, and made it clearly **SDET-3 / production-grade** without sounding over-engineered.
-
-You can **replace your existing content with this** 👇
-
----
-
 # UI Automation Framework – Playwright + TypeScript
 
 ## 📘 Overview
