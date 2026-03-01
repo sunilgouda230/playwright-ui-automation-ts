@@ -10,9 +10,6 @@ The framework is designed with **real-world product testing in mind**, following
 * Custom Playwright fixtures
 * Environment-based configuration
 * CI/CD integration using **GitHub Actions**
-
-The primary goal of this project is to showcase a **maintainable, extensible, and production-ready automation setup**, aligned with **SDET-3 / Senior QA Engineer expectations**.
-
 ---
 
 ## 🧰 Tech Stack
